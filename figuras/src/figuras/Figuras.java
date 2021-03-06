@@ -40,6 +40,7 @@ public class Figuras {
                     filas = leer.nextInt();
                     System.out.println("ingresa las columnas");
                     columnas = leer.nextInt();
+                    int v = 10;
                     for (int i = 0; i < filas; i++) {
                         for (int j = 0; j < columnas; j++) {
                             System.out.print("*");
